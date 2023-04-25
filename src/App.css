@@ -1,0 +1,145 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body, p, div, li {
+  color: #000;
+  font-family: Roboto,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+}
+:root{
+  --color-131921:#131921;
+  --color-3b4149:#2b4149;
+  --color-febd69:#febd69;
+  --color-232f3e:#232f3e;
+  --color-a04c97:#a04c97;
+  --color-fff:#fff;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+/* Header Part */
+.header-top-strip{
+  border-bottom: 1px solid var(--color-3b4149);
+  background-color: var(--color-a04c97);
+  padding-left: 20px;
+  padding-right: 180px;
+}
+.header-top-strip .container-xxl{
+  max-width: 1350px;
+  min-width: 280px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header-top-strip .upper-links{
+  padding: 0;
+  color: rgba(255,255,255,0.75);
+  font-family: Roboto,sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+.header-upper{
+  background-color: var(--color-fff);
+}
+.header-bottom{
+  background-color: var(--color-a04c97);
+}
+.header-upper .input-group-text{
+  background: white;
+  border: none;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.col-1-auto{
+  width: 5%;
+}
+.form-control:focus{
+  box-shadow: none;
+  border-color: inherit;
+}
+.header-upper .header-upper-links img{
+  width: 30px;
+  height: 30px;
+}
+.gap-10{
+  gap:10px;
+}
+.gap-15{
+  gap:15px;
+}
+.gap-30{
+  gap:30px;
+}
+.header-bottom .menu-links a{
+  color:white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3;
+}
+.icon img{
+  width: 30px;
+  height: 30px;
+}
+.form-control{
+  border-radius: 1.25rem;
+  position: relative;
+}
+.input-group-text{
+  position: absolute;
+  right: 0;
+  background-color: none;
+}
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+   border-top-right-radius: 1.25rem; 
+   border-bottom-right-radius: 1.25rem; 
+}
+.text-black{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-black a{
+    white-space: nowrap;
+    color: #000;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  
+    
+}
+a.d-flex.align-items-center.gap {
+  position: relative;
+}
+span.badge.bg-danger.text-dark {
+  position: absolute;
+  padding-top: 6px;
+  padding-left: 8px;
+  border-radius:50%;
+  bottom: 0;
+  right: -8px;
+}
+
+
+/* Header Part End */
+
+/* Product Card */
+.product-card{
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+.product-card .product-details h6{
+  color: #bf4800;
+  font-size: 13px;
+  
+}
