@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/online-bizbazar/static/css/main.4ffafd29.css",
-    "main.js": "/online-bizbazar/static/js/main.7a12203d.js",
+    "main.js": "/online-bizbazar/static/js/main.6d646542.js",
+    "static/media/slider.PNG": "/online-bizbazar/static/media/slider.c1616d21702360d9d8aa.PNG",
     "index.html": "/online-bizbazar/index.html",
     "main.4ffafd29.css.map": "/online-bizbazar/static/css/main.4ffafd29.css.map",
-    "main.7a12203d.js.map": "/online-bizbazar/static/js/main.7a12203d.js.map"
+    "main.6d646542.js.map": "/online-bizbazar/static/js/main.6d646542.js.map"
   },
   "entrypoints": [
     "static/css/main.4ffafd29.css",
-    "static/js/main.7a12203d.js"
+    "static/js/main.6d646542.js"
   ]
 }
