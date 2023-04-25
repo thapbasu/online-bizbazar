@@ -24,12 +24,12 @@ const Navbar = ({size, setShow}) => {
       <div className="row align-items-center">
         <div className="col-1-auto">
         <Link className=' icon'>
-                  <img src ="images/hamburger.png" alt="" /></Link>
+                  <img src ="images/hamburger.PNG" alt="" /></Link>
         </div>
       
         <div className="col-2 logo-icon">
         <span className="my_shop" onClick={()=>setShow(true)}>
-              <img src ="images/logo.png" alt="" width="200" height="50"/>
+              <img src ="images/logo.PNG" alt="" width="200" height="50"/>
              </span>
          
             </div>
@@ -40,31 +40,31 @@ const Navbar = ({size, setShow}) => {
             </div></div>
             <div className='col-2'>
               <p className='text-black mb-0'>
-              <img src ="images/call.png" alt="" width="32" height="32"/> <a href='9817112439' className=''>9817112439</a>
+              <img src ="images/call.PNG" alt="" width="32" height="32"/> <a href='9817112439' className=''>9817112439</a>
               </p>
             </div>
             <div className="col-2">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
               <div>
                 <Link>
-                <img src='/images/bar-chart.png' alt=''></img>
+                <img src='/images/bar-chart.PNG' alt=''></img>
                 </Link>
               </div>
               <div>
                 <Link to='/heart'>
-                <img src='/images/heart.png' alt=''></img>
+                <img src='/images/heart.PNG' alt=''></img>
                 </Link>
               </div>
               <div>
                 <Link>
-                <img src='/images/user.png' alt=''></img>
+                <img src='/images/user.PNG' alt=''></img>
                 </Link>
               </div>
               <div>
                 
               <div className="cart" onClick={()=>setShow(false)}>
                 <span>
-                <img src='/images/shopping-cart.png' alt=''></img>
+                <img src='/images/shopping-cart.PNG' alt=''></img>
                 </span>
                 <span>{size}</span>
             </div>
@@ -88,30 +88,30 @@ const Navbar = ({size, setShow}) => {
             <div className='menu-links'>
               <div className="d-flex align-items-center gap-15">
                 <NavLink to='/'>
-                <img src='/images/camera.png' width='30' height='30' className='navbar-icons-img' alt=''></img>
+                <img src='/images/camera.PNG' width='30' height='30' className='navbar-icons-img' alt=''></img>
                   Electronics
-                <img src='/images/down-arrow.png' alt=''>
+                <img src='/images/down-arrow.PNG' alt=''>
                 </img>
                 </NavLink>
                 <NavLink to='/'>
-                <img src='/images/sofa.png' width='30' height='30' className='navbar-icons-img' alt=''></img>
+                <img src='/images/sofa.PNG' width='30' height='30' className='navbar-icons-img' alt=''></img>
 
                   Home Decor & Furnishing
-                <img src='/images/down-arrow.png' alt=''>
+                <img src='/images/down-arrow.PNG' alt=''>
 
                 </img>
                 </NavLink>
                 <NavLink to='/'>
-                <img src='/images/essentials.png' className='navbar-icons-img' width='30' height='30' alt=''></img>
+                <img src='/images/essentials.PNG' className='navbar-icons-img' width='30' height='30' alt=''></img>
                   
                   Daily Essentials
-                <img src='/images/down-arrow.png' alt=''></img>
+                <img src='/images/down-arrow.PNG' alt=''></img>
                 </NavLink>
                 <NavLink to='/contact'>
-                <img src='/images/football.png' width='30' height='30' className='navbar-icons-img' alt=''></img>
+                <img src='/images/football.PNG' width='30' height='30' className='navbar-icons-img' alt=''></img>
                   
                   Sports & Outdoor
-                <img src='/images/down-arrow.png' alt=''></img>
+                <img src='/images/down-arrow.PNG' alt=''></img>
                 </NavLink>
                 <NavLink to='/contact'>
                 <img src='/images/dress.png' width='30' height='30' className='navbar-icons-img' alt=''></img>
@@ -127,7 +127,7 @@ const Navbar = ({size, setShow}) => {
       </div>
     </header>
     <div>
-            <img src='/images/slider.png' alt='' className= 'slider-img'></img>
+            <img src='/images/slider.PNG' alt='' className= 'slider-img'></img>
             </div>
         {/* <div className="nav_box ">
             <span className="my_shop" onClick={()=>setShow(true)}>
