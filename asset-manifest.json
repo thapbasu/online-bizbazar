@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/online-bizbazar/static/css/main.4ffafd29.css",
-    "main.js": "/online-bizbazar/static/js/main.6d646542.js",
+    "main.js": "/online-bizbazar/static/js/main.a71fa8e7.js",
     "static/media/slider.PNG": "/online-bizbazar/static/media/slider.c1616d21702360d9d8aa.PNG",
+    "static/media/user.png": "/online-bizbazar/static/media/user.557587208eb9e232f2ca.png",
+    "static/media/logo.png": "/online-bizbazar/static/media/logo.fa1aa0fca877054c0825.png",
+    "static/media/heart.png": "/online-bizbazar/static/media/heart.c412cbaead4744166c20.png",
     "index.html": "/online-bizbazar/index.html",
     "main.4ffafd29.css.map": "/online-bizbazar/static/css/main.4ffafd29.css.map",
-    "main.6d646542.js.map": "/online-bizbazar/static/js/main.6d646542.js.map"
+    "main.a71fa8e7.js.map": "/online-bizbazar/static/js/main.a71fa8e7.js.map"
   },
   "entrypoints": [
     "static/css/main.4ffafd29.css",
-    "static/js/main.6d646542.js"
+    "static/js/main.a71fa8e7.js"
   ]
 }
