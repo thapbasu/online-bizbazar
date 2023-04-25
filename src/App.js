@@ -4,6 +4,7 @@ import Amazon from './components/Amazon';
 import Cart from './components/Cart';
 import './styles/amazon.css';
 import './App.css'
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 const App = () => {
 	const [show, setShow] = useState(true);
 	const [cart , setCart] = useState([]);
@@ -40,6 +41,7 @@ const App = () => {
 	}
 
   return (
+	<HashRouter>
 	<React.Fragment>
 		<Navbar size={cart.length} setShow={setShow} />
 		{
@@ -49,6 +51,7 @@ const App = () => {
 			warning && <div className='warning'>Item is already added to your cart</div>
 		}
 	</React.Fragment>
+	</HashRouter>
   )
 }
 
