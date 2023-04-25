@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/online-bizbazar/static/css/main.4ffafd29.css",
-    "main.js": "/online-bizbazar/static/js/main.8dd2fe77.js",
+    "main.js": "/online-bizbazar/static/js/main.7a12203d.js",
     "index.html": "/online-bizbazar/index.html",
     "main.4ffafd29.css.map": "/online-bizbazar/static/css/main.4ffafd29.css.map",
-    "main.8dd2fe77.js.map": "/online-bizbazar/static/js/main.8dd2fe77.js.map"
+    "main.7a12203d.js.map": "/online-bizbazar/static/js/main.7a12203d.js.map"
   },
   "entrypoints": [
     "static/css/main.4ffafd29.css",
-    "static/js/main.8dd2fe77.js"
+    "static/js/main.7a12203d.js"
   ]
 }
